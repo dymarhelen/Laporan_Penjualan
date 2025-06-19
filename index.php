@@ -82,7 +82,7 @@ require 'koneksi.php';
                                 <option value="2021" <?= ($_GET['tahun'] ?? '') == '2021' ? 'selected' : '' ?>>2021</option>
                             </select>
                             <button type="submit" class="btn btn-primary">Tampilkan</button>
-                            <a href="export.php?tahun=<?= $_GET['tahun'] ?? date('Y') ?>" class="btn btn-success">Download Database 📂</a>
+                            <a href="export.php" class="btn btn-success">Download Database 📂</a>
                         </div>
                     </form>
                 </div>
